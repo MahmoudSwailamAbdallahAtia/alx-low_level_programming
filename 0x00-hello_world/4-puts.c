@@ -4,7 +4,7 @@
  *output a text from function main
  */
 
-struct main(void)
+int main(void)
   
 {
   
