@@ -1,12 +1,19 @@
-#include <stdio.h>
-/*output a text */
+#include<stio.h>
+
+/**
+
+ * main- serve as the container to run the gunction.
+
+ * Return: return 0 by default if theprogram runs.
+
+ */
+
 int main(void)
+  
 {
-
-char *str = "\"Programming is like building a multilingual puzzle";
-
-puts(str);
-
-return (0);
-
+  
+  puts("\"Programming is like building a multilingual puzzle");
+  
+  return (0);
+  
 }
