@@ -11,7 +11,7 @@ sizeof(unsigned int);
 printf("Size of a unsigned int: 8 bytes");
 return (0);
 }
-Size of a char: 1 byte(s)
+/*Size of a char: 1 byte(s)
   
   Size of an int: 4 byte(s)
   
@@ -21,3 +21,4 @@ Size of a char: 1 byte(s)
   
   Size of a float: 4 byte(s)
   
+*/
