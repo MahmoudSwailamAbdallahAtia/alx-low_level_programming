@@ -13,9 +13,10 @@ while (n < 10)
 putchar(n + '0');
 n++;
 }
-for (m <= 'f')
+while (m <= 'f')
 {
 putchar(m);
+m++;
 }
 putchar('\n');
 return (0);
