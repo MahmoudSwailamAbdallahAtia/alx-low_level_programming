@@ -6,8 +6,9 @@
  */
 int main (void){
   int n = 0;
-  for (n < 10; n++){
+  while (n < 10){
     printf("%d\n", n);
+    n++;
   }
   return (0);
 }
