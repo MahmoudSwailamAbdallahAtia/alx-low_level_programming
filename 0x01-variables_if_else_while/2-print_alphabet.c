@@ -5,9 +5,9 @@
  *main- print alphapet in lowercase
  *Return: 0
  */
-int main (void)
+int main(void)
 {
-  char alpha = 'a';
+char alpha = 'a';
 while (alpha <= 'z')
 {
 putchar(alpha);
