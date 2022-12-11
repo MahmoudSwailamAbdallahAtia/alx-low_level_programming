@@ -14,8 +14,11 @@ if (alpha == 'q' || alpha == 'e')
 { 
 continue;
 }
+else
+{
 putchar(alpha);
 alpha++;
+}
 }
 putchar('\n');
 return (0);
