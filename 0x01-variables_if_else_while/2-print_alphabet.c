@@ -1,13 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
  *main- print alphapet in lowercase
  *Return: 0
  */
 int main (void)
 {
-for(char alpha = 'a'; alpha <= 'z'; alpha++)
+  char alpha = 'a';
+while (alpha <= 'z')
 {
 putchar(alpha);
+alpha++;
 }
 putchar('\n');
 return (0);
