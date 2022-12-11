@@ -10,11 +10,11 @@ int main(void)
 char alpha = 'a';
 while (alpha <= 'z')
 {
-putchar(alpha);
 if (alpha == 'q' || alpha == 'e')
-{
+{ 
 continue;
 }
+putchar(alpha);
 alpha++;
 }
 putchar('\n');
