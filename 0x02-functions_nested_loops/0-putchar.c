@@ -3,18 +3,17 @@
  *main - print putchar
  *Return: 0
  */
-void funprint ()
+void funprint()
 {
-  char word = '_putchar';
-  char i;
-  for (i in word)
-    {
-      putchar(i);
-    }
-  putchar('\n');
+char word[] = {'_','p','u','t','c','h','a','r'};
+for (int i = 0; i < 8; i++)
+{
+putchar(word[i]);
+}
+putchar('\n');
 }
 int main(void)
 {
-  funprint;
-  return (0);
+funprint();
+return (0);
 }
