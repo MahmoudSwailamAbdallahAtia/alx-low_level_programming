@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- *main - print putchar
- *Return: 0
+ *print_alphabet - print putchar
  */
 void print_alphabet();
 void print_alphabet()
@@ -10,8 +9,12 @@ for (char letter ='a'; letter <= 'z'; letter++)
 {
 putchar(letter);
 }
-putchar('\n');
+putchar('\n')
 }
+/**
+*main - main functions
+*Return:0
+*/
 int main(void)
 {
 print_alphabet();
