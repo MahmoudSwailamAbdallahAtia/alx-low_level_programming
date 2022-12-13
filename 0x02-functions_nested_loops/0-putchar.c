@@ -6,6 +6,7 @@
 void funprint()
 {
 char word[] = {'_','p','u','t','c','h','a','r'};
+int i =0;
 for (int i = 0; i < 8; i++)
 {
 putchar(word[i]);
