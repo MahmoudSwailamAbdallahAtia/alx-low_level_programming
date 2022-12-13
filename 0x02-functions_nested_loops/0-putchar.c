@@ -2,6 +2,7 @@
 /**
 *main - print putchar
 *Description: funprint for printing word of array
+*funprint - printing
 *Return: 0
 */
 void funprint(void)
