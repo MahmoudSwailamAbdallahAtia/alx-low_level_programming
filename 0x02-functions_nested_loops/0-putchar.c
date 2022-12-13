@@ -15,6 +15,7 @@ putchar('\n');
 /**
 *main - represinting
 *Return:0
+*/
 int main(void)
 {
 funprint();
