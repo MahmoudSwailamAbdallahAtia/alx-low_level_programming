@@ -3,9 +3,9 @@
  *main - print putchar
  *Return: 0
  */
-void funprint()
+void funprint(void)
 {
-char word[] = {'_','p','u','t','c','h','a','r'};
+char word[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 int i;
 for (i = 0; i < 8; i++)
 {
