@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *main - print putchar
+ *Description: funprint for printing word of array 
  *Return: 0
  */
 void funprint(void)
