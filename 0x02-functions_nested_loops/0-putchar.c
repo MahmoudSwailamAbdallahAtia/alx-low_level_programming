@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *main - print putchar
- *Description: funprint for printing word of array 
- *Return: 0
- */
+*main - print putchar
+*Description: funprint for printing word of array
+*Return: 0
+*/
 void funprint(void)
 {
 char word[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
