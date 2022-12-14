@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *print_alphabet - print putchar
- */
-void print_alphabet();
-void print_alphabet()
+*print_alphabet - print putchar
+*/
+void print_alphabet(void);
+void print_alphabet(void)
 {
 char letter;
 for (letter ='a'; letter <= 'z'; letter++)
