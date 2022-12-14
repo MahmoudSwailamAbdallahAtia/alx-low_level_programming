@@ -1,23 +1,24 @@
 #include "main.h"
 /**
-*funprint - printing
+*fun_word - printing a string with putchar
 */
-void funprint(void)
+void fun_word(void);
+void fun_word(void)
 {
-char word[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+char word[] = "_putchar";
 int i;
-for (i = 0; i < 8; i++)
+for (i = 0; word[i] != '\0'; i++)
 {
 putchar(word[i]);
 }
 putchar('\n');
 }
 /**
-*main - represinting
+*main - represinting function fun_word
 *Return:0
 */
 int main(void)
 {
-funprint();
+fun_word();
 return (0);
 }
