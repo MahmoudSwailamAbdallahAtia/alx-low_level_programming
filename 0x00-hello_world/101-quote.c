@@ -1,6 +1,6 @@
 #include <unistd.h>
 /*
- *main- main function
+ * main - main function that prints txt
  * Return: always 0
  */
 int main(void)
